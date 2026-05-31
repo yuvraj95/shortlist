@@ -1,29 +1,44 @@
 # User Flows — Shortlist
 
+**Live Prototype:** [shortlist-job.lovable.app](https://shortlist-job.lovable.app/signup)
+
 ---
 
-## Flow 1 — Resume Upload and Feed
+## Flow 1 — Sign Up and Resume Upload
 
 **Actor:** New user  
-**Goal:** Upload resume and see a personalised scored job feed
+**Goal:** Create an account, upload a resume, and see a personalised scored feed
 
-1. User lands on the Shortlist dashboard
-2. Uploads a PDF resume directly (max 5 MB) — no login or signup required
-3. Resume is parsed into structured profile: headline, skills, experience, education
-4. Feed populates immediately with scored job postings
-5. Match scores visible on each job card
+1. User lands on Shortlist and clicks Sign Up
+2. Enters email and password (minimum 8 characters, email format validated)
+3. Lands on the dashboard
+4. Uploads a PDF resume (max 5 MB)
+5. Resume is parsed into structured profile: headline, skills, experience, education
+6. Feed populates with scored job postings
+7. Match scores visible on each job card immediately
 
 ---
 
-## Flow 2 — Browse and Triage the Feed
+## Flow 2 — Sign In
+
+**Actor:** Returning user  
+**Goal:** Access existing feed, saved jobs, and drafts
+
+1. User lands on Shortlist and clicks Sign In
+2. Enters email and password
+3. Lands on dashboard — feed, saved jobs, and drafts all intact from last session
+
+---
+
+## Flow 3 — Browse and Triage the Feed
 
 **Actor:** Active job seeker  
 **Goal:** Find relevant jobs and clean up noise quickly
 
-1. User opens Dashboard — sees job cards sorted by best match or newest
+1. User opens dashboard — sees job cards sorted by best match or newest
 2. Each card shows: job title, company, location, remote type, salary, match score label
 3. User applies filters: keyword, location, remote type, date posted, salary range
-4. Feed updates in real time to show matching results
+4. Feed updates to show matching results
 5. For irrelevant jobs: clicks Hide — job disappears permanently from the feed
 6. For interesting jobs: clicks Save — job moves to Saved view for later
 7. To view full details: clicks job card — original posting opens in a new tab
@@ -31,9 +46,9 @@
 
 ---
 
-## Flow 3 — Universal Search
+## Flow 4 — Universal Search
 
-**Actor:** Passive browser or signed-in user without a resume  
+**Actor:** Passive browser or signed-in user  
 **Goal:** Search the live job market without resume scoring
 
 1. User navigates to `/search`
@@ -45,7 +60,7 @@
 
 ---
 
-## Flow 4 — Resume Re-upload
+## Flow 5 — Resume Re-upload
 
 **Actor:** Active seeker who has updated their resume  
 **Goal:** Refresh profile so match scores reflect the updated resume
@@ -58,7 +73,7 @@
 
 ---
 
-## Flow 5 — Application Drafting
+## Flow 6 — Application Drafting
 
 **Actor:** Active seeker preparing to apply  
 **Goal:** Draft and save application answers per job without losing work
