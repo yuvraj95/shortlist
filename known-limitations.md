@@ -7,7 +7,7 @@ This is an honest account of what is not production-ready in the current prototy
 ## Current Limitations
 
 **No automated tests**
-Manual QA only. No unit, integration, or end-to-end test coverage. Not suitable for production without a test suite.
+Manual QA only. Not suitable for production without a test suite.
 
 **Scraper fragility**
 Job ingestion uses Apify actors to scrape LinkedIn. LinkedIn frequently changes its UI and rate-limits scraping. The ingestion pipeline can break without warning when LinkedIn updates. A production version would need a more resilient multi-source ingestion strategy with monitoring and fallback handling.
