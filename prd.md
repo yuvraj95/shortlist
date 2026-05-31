@@ -33,32 +33,41 @@ Replace generic job board scrolling with a resume-scored, filterable, persistent
 
 ## 4. User Stories
 
+**Authentication**
+1. Sign up with email and password
+2. Log in to access your scored feed and saved jobs
+
 **Resume Upload**
-1. Upload a PDF resume directly from the dashboard
-2. Re-upload to replace the parsed profile
+3. Upload a PDF resume from the dashboard after signing in
+4. Re-upload to replace the parsed profile
 
 **Feed**
-3. See jobs scored against my resume, newest first
-4. Filter by keyword, location, remote type, date posted, salary
-5. Hide a job and never see it again
-6. Save a job and find it later
-7. Open the original posting in a new tab
+5. See jobs scored against my resume, newest first
+6. Filter by keyword, location, remote type, date posted, salary
+7. Hide a job and never see it again
+8. Save a job and find it later
+9. Open the original posting in a new tab
 
 **Universal Search**
-8. Search the live job market by keyword and location, without a resume
+10. Search the live job market by keyword and location without a resume
 
 **Drafts**
-9. Draft application answers per job, with autosave
+11. Draft application answers per job, with autosave
 
 ---
 
 ## 5. Functional Requirements
 
+### Authentication
+- Email and password sign up and sign in
+- Minimum 8 character password with email format validation
+- No email verification required
+- No Google OAuth or anonymous sign-ups in v0.1
+
 ### Resume Upload and Parsing
 - PDF only, max 5 MB
 - Parsed into structured fields: headline, skills, years of experience, work history, education
 - Re-upload overwrites the prior parse atomically
-- No login or signup required — resume upload happens directly on the dashboard
 
 ### Job Ingestion
 - Primary source: LinkedIn via Apify actor
