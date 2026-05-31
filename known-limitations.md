@@ -1,6 +1,6 @@
 # Known Limitations — Shortlist v0.1
 
-This is an honest account of what is not production-ready in the current prototype. Shipping fast means making tradeoffs. These are the ones I made consciously.
+This is an honest account of what is not production-ready in the current prototype. Shipping fast means making tradeoffs. These are the ones I made consciously to validate my concept.
 
 ---
 
