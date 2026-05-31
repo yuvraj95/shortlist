@@ -27,7 +27,7 @@ It is also a genuine tool I use. Every feature in it was built to solve a real f
 
 ## Core Features
 
-- Resume upload and parsing — PDF ingested and structured into a profile
+- Resume upload and parsing — PDF uploaded directly on the dashboard, no login required, ingested and structured into a profile
 - Match scoring — every job scored 0 to 100 against your resume with clear labels (Excellent, Strong, Good, Weak, Low)
 - Filterable dashboard — filter by keyword, location, remote type, date, salary, and sort by best match or newest
 - Hide and save — hidden jobs disappear permanently, saved jobs are stored for later
