@@ -2,7 +2,7 @@
 
 ## What v0.1 Solves
 
-The MVP focuses on the single most valuable loop: upload a resume, get a scored feed, triage it cleanly, and search freely. Everything else is noise until this core loop is validated.
+The MVP focuses on the single most valuable loop: sign up, upload a resume, get a scored feed, triage it cleanly, and search freely. Everything else is noise until this core loop is validated.
 
 ---
 
@@ -10,7 +10,8 @@ The MVP focuses on the single most valuable loop: upload a resume, get a scored 
 
 | Feature | Status |
 |---|---|
-| Resume upload directly on dashboard (no login required) | Included |
+| Email and password authentication (min 8 chars, email validation) | Included |
+| Resume upload and parsing (PDF, max 5 MB) | Included |
 | Job ingestion via LinkedIn (Apify) | Included |
 | Heuristic match scoring 0 to 100 | Included |
 | Filterable dashboard (keyword, location, remote, date, salary) | Included |
