@@ -27,15 +27,15 @@ Even when a job looks relevant on the surface, there is no way to quickly assess
 | Persona | Description | Primary Need |
 |---|---|---|
 | Active seeker | Senior IC or PM applying to 5-15 roles per week | Signal-rich filtering, persistent triage, no repeated noise |
-| Passive browser | Employed professional scanning the market periodically | Quick market view without the friction of uploading a resume |
+| Passive browser | Employed professional scanning the market periodically | Quick market view without the friction of a lengthy setup |
 
 ---
 
 ## What Better Looks Like
 
 A personal job discovery tool that:
-- Ingests fresh job postings from across sources into one unified feed
-- Scores every posting against the user's actual resume — objectively, transparently
+- Lets users sign up instantly and upload a resume to get a scored feed in seconds
+- Scores every posting against the user's actual resume — objectively and transparently
 - Remembers every hide and save decision so the feed gets cleaner over time
 - Offers a fast resume-independent search for casual market browsing
 - Replaces the noise of generic job board scrolling with a focused, signal-rich experience
