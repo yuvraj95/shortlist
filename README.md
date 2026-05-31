@@ -11,9 +11,18 @@
 
 Job searching is broken. Boards return hundreds of irrelevant postings, there is no signal for how well a job actually fits your resume, dismissed jobs keep reappearing, and you are forced to search LinkedIn, Indeed, and Wellfound separately with no unified view.
 
-Shortlist fixes this. Upload your resume, and the app ingests fresh job postings, scores each one against your profile, and surfaces matches in a clean filterable dashboard. Hide jobs you don't want and they never come back. Save the ones you do. A Universal Search lets you browse the live job market without a resume when you just want to scan the landscape.
+Shortlist fixes this. Sign up, upload your resume, and the app ingests fresh job postings, scores each one against your profile, and surfaces matches in a clean filterable dashboard. Hide jobs you don't want and they never come back. Save the ones you do. A Universal Search lets you browse the live job market without a resume when you just want to scan the landscape.
 
 Built for the job seeker who is tired of noise and wants signal.
+
+---
+
+## Live Prototype
+
+Built with Lovable:  
+[shortlist-job.lovable.app](https://shortlist-job.lovable.app/signup)
+
+Sign up with email and password (min 8 characters), then sign in to access your dashboard.
 
 ---
 
@@ -27,7 +36,8 @@ It is also a genuine tool I use. Every feature in it was built to solve a real f
 
 ## Core Features
 
-- Resume upload and parsing — PDF uploaded directly on the dashboard, no login required, ingested and structured into a profile
+- Email and password authentication with basic validations
+- Resume upload and parsing — PDF ingested and structured into a profile
 - Match scoring — every job scored 0 to 100 against your resume with clear labels (Excellent, Strong, Good, Weak, Low)
 - Filterable dashboard — filter by keyword, location, remote type, date, salary, and sort by best match or newest
 - Hide and save — hidden jobs disappear permanently, saved jobs are stored for later
@@ -41,7 +51,7 @@ It is also a genuine tool I use. Every feature in it was built to solve a real f
 | File | Description |
 |---|---|
 | `problem-statement.md` | Problem framing, target personas, and opportunity |
-| `prd.md` | Full PRD — v0.1 with functional requirements, data model, UX flows |
+| `prd.md` | Full PRD with functional requirements, data model, UX flows |
 | `user-flows.md` | Core user journeys end to end |
 | `mvp-vs-roadmap.md` | What is in v0.1 vs what comes next |
 | `known-limitations.md` | Honest account of what is not production-ready yet |
